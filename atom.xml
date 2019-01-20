@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Green Dragon</title>
+  <title>Teal Dragon</title>
   
   <subtitle>青龍學習小組組長</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Mynany.github.io/"/>
-  <updated>2019-01-20T03:54:32.464Z</updated>
+  <updated>2019-01-20T16:10:54.608Z</updated>
   <id>http://Mynany.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://Mynany.github.io/2019/01/19/list/"/>
     <id>http://Mynany.github.io/2019/01/19/list/</id>
     <published>2019-01-20T03:41:46.000Z</published>
-    <updated>2019-01-20T03:54:32.464Z</updated>
+    <updated>2019-01-20T16:10:54.608Z</updated>
     
-    <content type="html"><![CDATA[<p>該運動了，明天繼續</p><ul><li>把這個小桃心改了</li><li>links裡面的圖標換掉</li><li>git寫完</li><li>讓小黃人動起來</li><li>godaddy買域名</li><li>這個搜索框不支持中文啊</li><li>改英文</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>該運動了，明天繼續</p><ul><li>把這個小桃心改了</li><li>links裡面的圖標換掉</li><li>git寫完</li><li>讓小黃人動起來</li><li>這個搜索框不支持中文啊</li><li>改英文</li></ul>]]></content>
     
     <summary type="html">
     
@@ -35,9 +35,10 @@
 &lt;li&gt;links裡面的圖標換掉&lt;/li&gt;
 &lt;li&gt;git寫完&lt;/li&gt;
 &lt;li&gt;讓小黃人動起來&lt;/li&gt;
-&lt;li&gt;godaddy買域名&lt;/li&gt;
 &lt;li&gt;這個搜索框不支持中文啊&lt;/li&gt;
-&lt;li&gt;改
+&lt;li&gt;改英文&lt;/li&gt;
+&lt;/ul&gt;
+
       
     
     </summary>
@@ -75,7 +76,7 @@
     <link href="http://Mynany.github.io/2019/01/19/guitarbuzz/"/>
     <id>http://Mynany.github.io/2019/01/19/guitarbuzz/</id>
     <published>2019-01-20T03:11:57.000Z</published>
-    <updated>2019-01-20T03:33:08.412Z</updated>
+    <updated>2019-01-20T16:33:13.241Z</updated>
     
     <content type="html"><![CDATA[<h1 id="吉他打品咋辦"><a href="#吉他打品咋辦" class="headerlink" title="吉他打品咋辦"></a>吉他打品咋辦</h1><p>芝加哥冬天太過乾燥，加上室內空調全天不休，我這兩把吉他相繼出現了打品的問題。總結了這幾個辦法：</p><ul><li>吉他音孔裡面靠近上面的地方有一個小洞，找一把尺寸合適的螺絲刀伸進去，轉動螺絲刀，往哪邊轉我忘了。反正就是調節琴頸的高低。轉不動的話，請拿出家裡用的食用油滴兩滴進去。注意別轉的太過了，防止吉他被玩壞。網上說可以目測琴頸的高低，我反正從來都看不出來。</li><li>拿一個濕毛巾，擰乾，別太乾。拿一個ziploc的袋子，沒有可以用塑料袋代替，用刀劃幾個口子，把毛巾放進去。袋子口合上，放進吉他琴箱裡72小時。</li><li>換一把吉他</li><li>其他打磨品絲的操作太高級了，我沒試過</li></ul><p>吉他都金貴得很叻，哪怕是最辣雞的合板吉他，也會受濕度的影響。不能太乾燥也不能太潮溼。<br>南方的小夥伴可以在吉他琴箱裡塞一包乾燥劑，注意更換。北方的小夥伴平時可以在旁邊個一盆水，不用吉他的時候裝回琴包裡。千萬不要放到暖氣旁邊。</p>]]></content>
     

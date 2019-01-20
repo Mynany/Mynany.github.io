@@ -4,11 +4,74 @@
   
     
     <entry>
+      <title>list</title>
+      <link href="/2019/01/19/list/"/>
+      <url>/2019/01/19/list/</url>
+      
+        <content type="html"><![CDATA[<p>該運動了，明天繼續</p><ul><li>把這個小桃心改了</li><li>links裡面的圖標換掉</li><li>git寫完</li><li>讓小黃人動起來</li><li>godaddy買域名</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>1q84</title>
+      <link href="/2019/01/19/1q84/"/>
+      <url>/2019/01/19/1q84/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1q84"><a href="#1q84" class="headerlink" title="1q84"></a>1q84</h1><p>前半部分還可以，後面真真是女人的裹腳布，又臭又長。<br>沒了。<br>1984也看過，具體情節忘了，只記得當時看到最後快的飛起，因為根本就看不懂。好像是沒看完。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 讀書 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 讀書 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>guitarbuzz</title>
+      <link href="/2019/01/19/guitarbuzz/"/>
+      <url>/2019/01/19/guitarbuzz/</url>
+      
+        <content type="html"><![CDATA[<h1 id="吉他打品咋辦"><a href="#吉他打品咋辦" class="headerlink" title="吉他打品咋辦"></a>吉他打品咋辦</h1><p>芝加哥冬天太過乾燥，加上室內空調全天不休，我這兩把吉他相繼出現了打品的問題。總結了這幾個辦法：</p><ul><li>吉他音孔裡面靠近上面的地方有一個小洞，找一把尺寸合適的螺絲刀伸進去，轉動螺絲刀，往哪邊轉我忘了。反正就是調節琴頸的高低。轉不動的話，請拿出家裡用的食用油滴兩滴進去。注意別轉的太過了，防止吉他被玩壞。網上說可以目測琴頸的高低，我反正從來都看不出來。</li><li>拿一個濕毛巾，擰乾，別太乾。拿一個ziploc的袋子，沒有可以用塑料袋代替，用刀劃幾個口子，把毛巾放進去。袋子口合上，放進吉他琴箱裡72小時。</li><li>換一把吉他</li><li>其他打磨品絲的操作太高級了，我沒試過</li></ul><p>吉他都金貴得很叻，哪怕是最辣雞的合板吉他，也會受濕度的影響。不能太乾燥也不能太潮溼。<br>南方的小夥伴可以在吉他琴箱裡塞一包乾燥劑，注意更換。北方的小夥伴平時可以在旁邊個一盆水，不用吉他的時候裝回琴包裡。千萬不要放到暖氣旁邊。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 吉他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吉他打品, 文理不分家 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>git</title>
       <link href="/2019/01/19/git/"/>
       <url>/2019/01/19/git/</url>
       
-        <content type="html"><![CDATA[<p>#set up git on Mac</p><p>很久以前，有個朋友告訴我，個人網站對找工作有很大幫助。我沒放在心上。昨天不知道在搜什麼東西，看到了某位大神的blog，造型炫酷，內容紮實，我動心了。<br>我本來不是一個喜歡分享的人，一方面覺得自己太菜，一方面不喜歡別人過多了解我，但現在覺得自己應該敞開胸懷。<br>github pages + hexo 當然要從git開始，第一篇文章就想紀錄一下怎麼配置git以及github。廢話有點多了。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="set-up-git-on-Mac"><a href="#set-up-git-on-Mac" class="headerlink" title="set up git on Mac"></a>set up git on Mac</h1><p>很久以前，有個朋友告訴我，個人網站對找工作有很大幫助，我沒放在心上。昨天不知道在搜什麼東西，看到了某位大神的blog，造型炫酷，內容紮實，我心動了。<br>我本來不是一個喜歡分享的人，一方面覺得自己太菜，一方面不喜歡別人過多了解我，但現在覺得自己應該敞開胸懷。<br>github pages + hexo 當然要從git開始，第一篇文章就想紀錄一下怎麼配置git以及github。廢話有點多。</p><h2 id="預備知識"><a href="#預備知識" class="headerlink" title="預備知識"></a>預備知識</h2><p>git是啥就不多說了</p><h3 id="git有三種主要狀態：committed，modified，和staged"><a href="#git有三種主要狀態：committed，modified，和staged" class="headerlink" title="git有三種主要狀態：committed，modified，和staged"></a>git有三種主要狀態：committed，modified，和staged</h3><ul><li>committed代表數據已經安全的存入本地數據庫</li><li>modified代表你對文件進行了更改，而且沒有將更改後的文件committed入數據庫</li><li>staged代表你已經對更改的文件進行標記進行下一次commit</li></ul><h3 id="git-project有三個section"><a href="#git-project有三個section" class="headerlink" title="git project有三個section"></a>git project有三個section</h3><p>如下圖所示：the git directory, the working tree, the staging are</p><ul><li>git directory是git為你的項目存儲數據的區域，這是git最重要的一部分。從其他計算機克隆倉庫時，拷貝的也是這裡的數據</li><li>working tree是對項目的某個版本獨立提取出來的內容。也就是你本地的項目，供你修改</li><li>staging area是一個文件，保存了下次將commit的文件列表信息，一般在git倉庫目錄中<br><img src="https://git-scm.com/book/en/v2/images/areas.png" alt="Working tree, staging area, and Git directory"></li></ul><h3 id="git工作流程："><a href="#git工作流程：" class="headerlink" title="git工作流程："></a>git工作流程：</h3><ul><li>在working tree（本地）修改文件</li><li>暫存文件，將文件快照放入staging area</li><li>提交更新。找到暫存區域的文件，將快照永久性存儲到git directory</li></ul><h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><pre><code>git</code></pre><p>若電腦上沒有安裝git，會提醒你安裝<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;Pixel&quot;</span><br><span class="line">git config --global user.email pixel@gmail.com</span><br></pre></td></tr></table></figure></p><p>設置過後，可以使用檢查你的配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></p><p>如果出現以下信息，就代表配置成功<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">user.name=Pixel</span><br><span class="line">user.email=pixel@gmail.com</span><br></pre></td></tr></table></figure></p>]]></content>
       
       
       <categories>
@@ -23,19 +86,6 @@
             <tag> git </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2019/01/19/hello-world/"/>
-      <url>/2019/01/19/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     

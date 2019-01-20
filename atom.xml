@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Green Dragon</title>
+  
+  <subtitle>青龍學習小組組長</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://Mynany.github.io/"/>
+  <updated>2019-01-20T01:34:06.247Z</updated>
+  <id>http://Mynany.github.io/</id>
+  
+  <author>
+    <name>Pixel Yang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git</title>
+    <link href="http://Mynany.github.io/2019/01/19/git/"/>
+    <id>http://Mynany.github.io/2019/01/19/git/</id>
+    <published>2019-01-20T01:22:27.000Z</published>
+    <updated>2019-01-20T01:34:06.247Z</updated>
+    
+    <content type="html"><![CDATA[<p>#set up git on Mac</p><p>很久以前，有個朋友告訴我，個人網站對找工作有很大幫助。我沒放在心上。昨天不知道在搜什麼東西，看到了某位大神的blog，造型炫酷，內容紮實，我動心了。<br>我本來不是一個喜歡分享的人，一方面覺得自己太菜，一方面不喜歡別人過多了解我，但現在覺得自己應該敞開胸懷。<br>github pages + hexo 當然要從git開始，第一篇文章就想紀錄一下怎麼配置git以及github。廢話有點多了。</p>]]></content>
+    
+    <summary type="html">
+    
+      This is about how to set up git on Mac
+    
+    </summary>
+    
+      <category term="technology" scheme="http://Mynany.github.io/categories/technology/"/>
+    
+    
+      <category term="git" scheme="http://Mynany.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://Mynany.github.io/2019/01/19/hello-world/"/>
+    <id>http://Mynany.github.io/2019/01/19/hello-world/</id>
+    <published>2019-01-19T20:09:24.287Z</published>
+    <updated>2019-01-19T20:09:24.287Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

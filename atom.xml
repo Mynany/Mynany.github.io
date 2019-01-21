@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://littletealdragon.com/"/>
-  <updated>2019-01-21T03:36:50.606Z</updated>
+  <updated>2019-01-21T21:24:33.866Z</updated>
   <id>http://littletealdragon.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>musictest</title>
+    <link href="http://littletealdragon.com/musictest.html"/>
+    <id>http://littletealdragon.com/musictest.html</id>
+    <published>2019-01-21T21:21:45.000Z</published>
+    <updated>2019-01-21T21:24:33.866Z</updated>
+    
+    <content type="html"><![CDATA[<p>有一小段solo不知是箫还是笛子，特地看了一下现场版，都是用唢呐代替。<br>然后就特别想回国，去红白喜事现场，找个老师傅教我唢呐</p><iframe src="https://open.spotify.com/embed/track/3sWeUneRsiQwY4PKkKBsQ9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>]]></content>
+    
+    <summary type="html">
+    
+      this is a music test!!!
+    
+    </summary>
+    
+      <category term="music" scheme="http://littletealdragon.com/categories/music/"/>
+    
+    
+      <category term="test" scheme="http://littletealdragon.com/tags/test/"/>
+    
+      <category term="music" scheme="http://littletealdragon.com/tags/music/"/>
+    
+  </entry>
   
   <entry>
     <title>HARPEJJI</title>
@@ -36,9 +60,9 @@
     
       <category term="music" scheme="http://littletealdragon.com/tags/music/"/>
     
-      <category term="harpejji" scheme="http://littletealdragon.com/tags/harpejji/"/>
-    
       <category term="science and art" scheme="http://littletealdragon.com/tags/science-and-art/"/>
+    
+      <category term="harpejji" scheme="http://littletealdragon.com/tags/harpejji/"/>
     
   </entry>
   
@@ -47,22 +71,24 @@
     <link href="http://littletealdragon.com/list.html"/>
     <id>http://littletealdragon.com/list.html</id>
     <published>2019-01-20T03:41:46.000Z</published>
-    <updated>2019-01-21T03:36:31.569Z</updated>
+    <updated>2019-01-21T21:19:44.874Z</updated>
     
-    <content type="html"><![CDATA[<p>啪啪打脸<br>該運動了，明天繼續</p><ul><li>git寫完</li><li>讓小黃人動起來</li><li>這個搜索框不支持中文啊</li><li>改英文</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>update</p><ul><li><p>git<br>啪啪打脸<br>該運動了，明天繼續</p></li><li><p>git寫完</p></li><li>讓小黃人動起來</li><li>這個搜索框不支持中文啊</li><li>改英文</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;啪啪打脸&lt;br&gt;該運動了，明天繼續&lt;/p&gt;
+        &lt;p&gt;update&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;git寫完&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;git&lt;br&gt;啪啪打脸&lt;br&gt;該運動了，明天繼續&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;git寫完&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;讓小黃人動起來&lt;/li&gt;
 &lt;li&gt;這個搜索框不支持中文啊&lt;/li&gt;
 &lt;li&gt;改英文&lt;/li&gt;
 &lt;/ul&gt;
-
       
     
     </summary>

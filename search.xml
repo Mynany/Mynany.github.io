@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>musictest</title>
+      <link href="/musictest.html"/>
+      <url>/musictest.html</url>
+      
+        <content type="html"><![CDATA[<p>有一小段solo不知是箫还是笛子，特地看了一下现场版，都是用唢呐代替。<br>然后就特别想回国，去红白喜事现场，找个老师傅教我唢呐</p><iframe src="https://open.spotify.com/embed/track/3sWeUneRsiQwY4PKkKBsQ9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> music </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+            <tag> music </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HARPEJJI</title>
       <link href="/video.html"/>
       <url>/video.html</url>
@@ -22,9 +49,9 @@
             
             <tag> music </tag>
             
-            <tag> harpejji </tag>
-            
             <tag> science and art </tag>
+            
+            <tag> harpejji </tag>
             
         </tags>
       
@@ -37,7 +64,7 @@
       <link href="/list.html"/>
       <url>/list.html</url>
       
-        <content type="html"><![CDATA[<p>啪啪打脸<br>該運動了，明天繼續</p><ul><li>git寫完</li><li>讓小黃人動起來</li><li>這個搜索框不支持中文啊</li><li>改英文</li></ul>]]></content>
+        <content type="html"><![CDATA[<p>update</p><ul><li><p>git<br>啪啪打脸<br>該運動了，明天繼續</p></li><li><p>git寫完</p></li><li>讓小黃人動起來</li><li>這個搜索框不支持中文啊</li><li>改英文</li></ul>]]></content>
       
       
       

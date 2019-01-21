@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://littletealdragon.com/musictest.html</loc>
+    
+    <lastmod>2019-01-21T21:24:33.866Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://littletealdragon.com/list.html</loc>
+    
+    <lastmod>2019-01-21T21:19:44.874Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://littletealdragon.com/about/index.html</loc>
     
     <lastmod>2019-01-21T04:19:27.905Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://littletealdragon.com/video.html</loc>
     
     <lastmod>2019-01-21T03:36:50.606Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://littletealdragon.com/list.html</loc>
-    
-    <lastmod>2019-01-21T03:36:31.569Z</lastmod>
     
   </url>
   

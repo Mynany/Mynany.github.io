@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://littletealdragon.com/musictest.html</loc>
+    <loc>http://littletealdragon.com/newplan.html</loc>
+    <lastmod>2019-01-23</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/PNP.html</loc>
+    <lastmod>2019-01-22</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/git.html</loc>
     <lastmod>2019-01-21</lastmod>
   </url>  <url>
     <loc>http://littletealdragon.com/list.html</loc>
+    <lastmod>2019-01-21</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/musictest.html</loc>
     <lastmod>2019-01-21</lastmod>
   </url>  <url>
     <loc>http://littletealdragon.com/video.html</loc>
@@ -15,8 +24,5 @@
   </url>  <url>
     <loc>http://littletealdragon.com/1q84.html</loc>
     <lastmod>2019-01-21</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/git.html</loc>
-    <lastmod>2019-01-20</lastmod>
   </url>
 </urlset>

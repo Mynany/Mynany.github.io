@@ -55,9 +55,9 @@
     </summary>
     
     
-      <category term="text" scheme="http://littletealdragon.com/tags/text/"/>
-    
       <category term="hexo" scheme="http://littletealdragon.com/tags/hexo/"/>
+    
+      <category term="text" scheme="http://littletealdragon.com/tags/text/"/>
     
   </entry>
   

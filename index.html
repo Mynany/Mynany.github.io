@@ -152,6 +152,39 @@ var _hmt = _hmt || [];
 <div class="row">
 	<div class="col-md-8">
 		<h3 class="title">
+			<a href="/test.html" title="Test on how to access picture">test</a>
+		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ 2019-01-30  </div>
+		</div>
+	</div>
+	
+
+
+			<div class="entry">
+  <div class="row">
+	
+	
+		<h1 id="Access-pictures-in-hexo"><a href="#Access-pictures-in-hexo" class="headerlink" title="Access pictures in hexo"></a>Access pictures in hexo</h1><p>Pictures display normally if I quote the link from internet<br>But if i want to use a local picture by it’s relative path, error shows<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![new github repository](pic/githubinit.png)</span><br></pre></td></tr></table></figure></p>
+<p>Then I check the document, it says that hexo offers a new way to access your local pics. First set post_asset_folder setting in _config.yml true, then every time you create a new post, hexo will create a source file as well. Then we can access the pictures by doing this.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure></p>
+<p>The problem is, by doing this, we cannot adjust the size of images. </p>
+<hr>
+<p>Regular markdown syntax test<br><img src="pic/githubinit.png" alt="new github repository"></p>
+<p>Hexo syntax test<br><img src="/test/githubinit.png" title="new github repository"></p>
+
+	
+	</div>
+  <a type="button" href="/test.html#more" class="btn btn-default more">Read More</a>
+</div>
+
+		
+			
+	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
+		<h3 class="title">
 			<a href="/newplan.html">newplan</a>
 		</h3>
 		</div>
@@ -421,7 +454,8 @@ var _hmt = _hmt || [];
 <h2 id="初始化倉庫"><a href="#初始化倉庫" class="headerlink" title="初始化倉庫"></a>初始化倉庫</h2><p>在你的項目文件夾下，運行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></p>
 <p>將你想要跟蹤的文件添加至上文所說的暫存區域<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add * //添加當前目錄下所有文件</span><br><span class="line">git add test.c //添加test.c</span><br><span class="line">git add *.c  //添加當前目錄下所有.c文件</span><br></pre></td></tr></table></figure></p>
 <p>提交文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &apos;first commit&apos;</span><br></pre></td></tr></table></figure></p>
-<p>然後怎樣把本地w項目託管到github上呢。首先，github上新建一個倉庫<br><img src="pic/githubinit.png" alt="new github repository"><br>然後進入剛創建的項目，拷貝鏈接<br><img src="pic/githublink.png" alt="copy github link"><br>然後在本地你要託管的項目目錄下運行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/Mynany/Msapriori-Mining.git</span><br></pre></td></tr></table></figure></p>
+<p>然後怎樣把本地w項目託管到github上呢。首先，github上新建一個倉庫</p>
+<p><img src="pic/githubinit.png" alt="new github repository"><br>然後進入剛創建的項目，拷貝鏈接<br><img src="pic/githublink.png" alt="copy github link"><br>然後在本地你要託管的項目目錄下運行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/Mynany/Msapriori-Mining.git</span><br></pre></td></tr></table></figure></p>
 <p>使用push命令向遠程主機推送<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></p>
 <h2 id="克隆倉庫"><a href="#克隆倉庫" class="headerlink" title="克隆倉庫"></a>克隆倉庫</h2><p>像上述一樣，拷貝要克隆倉庫的url<br>克隆到當前文件夾下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/Mynany/Msapriori-Mining.git</span><br></pre></td></tr></table></figure></p>
 <p>克隆到指定文件夾<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/Mynany/Msapriori-Mining.git myClone</span><br></pre></td></tr></table></figure></p>
@@ -459,12 +493,11 @@ var _hmt = _hmt || [];
 	<div id="sidebar">
 	
 			
-  <div id="site_search">
-   <div class="form-group">
-    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control">
-   </div>  
-  <div id="local-search-result"></div>
-  </div>
+  <div class="form-group has-success has-feedback" id="site_search">
+    <form class="site-search-form">
+        <input type="text" id="st-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control">
+    </form>
+  </div>  
 
 
 		
@@ -490,23 +523,27 @@ var _hmt = _hmt || [];
 		<h4>Tag Cloud</h4>
 		<ul class="tag_box inline list-unstyled">		
 		
-			<li><a href="/tags/buzz/">buzz<span>1</span></a></li>
+			<li><a href="/tags/guitar/">guitar<span>1</span></a></li>
+		
+			<li><a href="/tags/harpejji/">harpejji<span>1</span></a></li>
 		
 			<li><a href="/tags/science-and-art/">science and art<span>2</span></a></li>
 		
 			<li><a href="/tags/whatever/">whatever<span>1</span></a></li>
 		
-			<li><a href="/tags/music/">music<span>2</span></a></li>
-		
-			<li><a href="/tags/test/">test<span>1</span></a></li>
+			<li><a href="/tags/buzz/">buzz<span>1</span></a></li>
 		
 			<li><a href="/tags/git/">git<span>1</span></a></li>
 		
+			<li><a href="/tags/hexo/">hexo<span>1</span></a></li>
+		
+			<li><a href="/tags/test/">test<span>1</span></a></li>
+		
+			<li><a href="/tags/music/">music<span>2</span></a></li>
+		
 			<li><a href="/tags/book/">book<span>2</span></a></li>
 		
-			<li><a href="/tags/harpejji/">harpejji<span>1</span></a></li>
-		
-			<li><a href="/tags/guitar/">guitar<span>1</span></a></li>
+			<li><a href="/tags/text/">text<span>1</span></a></li>
 		
 		 
 		</ul>
@@ -518,6 +555,10 @@ var _hmt = _hmt || [];
 <div class="widget">
   <h4>Recent Posts</h4>
   <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/test.html" title="Test on how to access picture"><i class="fa fa-file-o"></i>test</a>
+      </li>
     
       <li>
         <a href="/newplan.html"><i class="fa fa-file-o"></i>newplan</a>
@@ -533,10 +574,6 @@ var _hmt = _hmt || [];
     
       <li>
         <a href="/video.html" title="harpejji introduction"><i class="fa fa-file-o"></i>HARPEJJI</a>
-      </li>
-    
-      <li>
-        <a href="/list.html"><i class="fa fa-file-o"></i>list</a>
       </li>
     
   </ul>
@@ -579,6 +616,15 @@ var _hmt = _hmt || [];
  </footer>
 </div> <!-- container-narrow -->
   
+  <script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'ZP2ZSuHgipSZfRyU8uTR','2.0.0');
+  </script>
+
 
 
   

@@ -9,12 +9,12 @@
   <title>test | Teal Dragon</title>
   <meta name="author" content="Pixel Yang">
   
-  <meta name="description" content="Computer Science, Technology, Music, Science an Art">
+  <meta name="description" content="Test on how to access picture">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="test">
   <meta property="og:site_name" content="Teal Dragon">
 
   
@@ -124,157 +124,125 @@ var _hmt = _hmt || [];
   	<div class="content">
     	 
 
-<!-- title -->
-<div class="page-header">
-  <h1 class="archive-title-tag"><i class="fa fa-archive"></i> test</h1>
-</div>
 
-<div class="row page">
-  <!-- cols -->
-  
-  <div class="col-md-9">
 	
-
-	  <div id="top_search"></div>
-
-	  <div class="archive">
-		
-		
-		
-			
-			
-			<h4 class="archive-ul" data-toggle="collapse" data-target="#2019">2019<b class="caret"></b></h4>
-			<ul id="2019" class="collapse in">
-			
-		
-		<li class="listing-item">
-		<span class="date_class"> 2019-01-21 </span> &raquo;
-		
-		   <span class="title"><a href="/musictest.html" title="this is a music test!!!">musictest</a></span>
-		
-		</li>			
-		
-		</ul>
+		<div class="page-header">
+			<h1> test</h1>
 		</div>
-
-</div> <!-- col-md-9/col-md-12 -->
-
-
-<div class="col-md-3">
-	<div id="sidebar">
 	
-			
-  <div class="form-group has-success has-feedback" id="site_search">
-    <form class="site-search-form">
-        <input type="text" id="st-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control">
-    </form>
-  </div>  
 
 
-		
-			
-	<div class="widget">
-		<h4>Categories</h4>
-		<ul class="tag_box inline list-unstyled">
-		
-			<li><a href="/categories/book/">book<span>2</span></a></li>
-		
-			<li><a href="/categories/guitar/">guitar<span>1</span></a></li>
-		
-			<li><a href="/categories/music/">music<span>2</span></a></li>
-		
-			<li><a href="/categories/technology/">technology<span>1</span></a></li>
-		
-		</ul>
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  
+		 <div class="alert alert-success description">
+			<i class="fa fa-info-circle"></i> Test on how to access picture
+		 </div> <!-- alert -->
+	  		
+
+	  <h1 id="Access-pictures-in-hexo"><a href="#Access-pictures-in-hexo" class="headerlink" title="Access pictures in hexo"></a>Access pictures in hexo</h1><p>Pictures display normally if I quote the link from internet<br>But if i want to use a local picture by it’s relative path, error shows<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![new github repository](pic/githubinit.png)</span><br></pre></td></tr></table></figure></p>
+<p>Then I check the document, it says that hexo offers a new way to access your local pics. First set post_asset_folder setting in _config.yml true, then every time you create a new post, hexo will create a source file as well. Then we can access the pictures by doing this.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure></p>
+<p>The problem is, by doing this, we cannot adjust the size of images. </p>
+<hr>
+<p>Regular markdown syntax test<br><img src="pic/githubinit.png" alt="new github repository"></p>
+<p>Hexo syntax test<br><img src="/test/githubinit.png" title="new github repository"></p>
+	  
 	</div>
 
-		
-			
-	<div class="widget">
-		<h4>Tag Cloud</h4>
-		<ul class="tag_box inline list-unstyled">		
-		
-			<li><a href="/tags/test/">test<span>1</span></a></li>
-		
-			<li><a href="/tags/science-and-art/">science and art<span>2</span></a></li>
-		
-			<li><a href="/tags/harpejji/">harpejji<span>1</span></a></li>
-		
-			<li><a href="/tags/buzz/">buzz<span>1</span></a></li>
-		
-			<li><a href="/tags/whatever/">whatever<span>1</span></a></li>
-		
-			<li><a href="/tags/hexo/">hexo<span>1</span></a></li>
-		
-			<li><a href="/tags/music/">music<span>2</span></a></li>
-		
-			<li><a href="/tags/guitar/">guitar<span>1</span></a></li>
-		
-			<li><a href="/tags/book/">book<span>2</span></a></li>
-		
-			<li><a href="/tags/git/">git<span>1</span></a></li>
-		
-			<li><a href="/tags/text/">text<span>1</span></a></li>
-		
-		 
-		</ul>
+	<div>
+  	<center>
+	<div class="pagination">
+
+    
+    
+    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Prev</a>
+    
+
+    <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
+    
+    <a href="/newplan.html" type="button" class="btn btn-default ">Next<i class="fa fa-arrow-circle-o-right"></i></a>
+    
+
+    
+</div>
+
+    </center>
 	</div>
+	
+	<!-- share -->
+	
+  <div class="addthis addthis_toolbox addthis_default_style">
+    
+    
+    
+    
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+
+	</div> <!-- col-md-9/col-md-12 -->
+
+	<!-- comment -->
+	
+<section id="comment">
+    <h2 class="title">Comments</h2>
+
+    
+</section>
 
 
+	</div> <!-- col-md-9/col-md-12 -->
 		
-			
-<div class="widget">
-  <h4>Recent Posts</h4>
-  <ul class="entry list-unstyled">
-    
-      <li>
-        <a href="/test.html" title="Test on how to access picture"><i class="fa fa-file-o"></i>test</a>
-      </li>
-    
-      <li>
-        <a href="/newplan.html"><i class="fa fa-file-o"></i>newplan</a>
-      </li>
-    
-      <li>
-        <a href="/PNP.html"><i class="fa fa-file-o"></i>Pride and Prejudice</a>
-      </li>
-    
-      <li>
-        <a href="/musictest.html" title="this is a music test!!!"><i class="fa fa-file-o"></i>musictest</a>
-      </li>
-    
-      <li>
-        <a href="/video.html" title="harpejji introduction"><i class="fa fa-file-o"></i>HARPEJJI</a>
-      </li>
-    
-  </ul>
-</div>
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
 
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2019-01-30 
+	</div>
+	
+
+	<!-- categories -->
+    
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/tags/text/">text<span>1</span></a></li> <li><a href="/tags/hexo/">hexo<span>1</span></a></li>
+    </ul>
+	</div>
 		
-			
-<div class="widget">
-	<h4>Links</h4>
-	<ul class="blogroll list-unstyled">
-	
-		<li><i class="fa fa-github"></i><a href="https://github.com/Mynany" title="My Github" target="_blank" ]);"="">Github</a></li>
-	
-		<li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/yumengyang2/" title="My Linkedin" target="_blank" ]);"="">Linkedin</a></li>
-	
-		<li><i class="fa fa-instagram"></i><a href="https://www.instagram.com/pixiexiexie/" title="My Instagram" target="_blank" ]);"="">Instagram</a></li>
-	
-		<li><i class="fa fa-weibo"></i><a href="https://www.weibo.com/2689608971/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="My Weibo" target="_blank" ]);"="">Weibo</a></li>
-	
-	</ul>
-</div>
 
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
 
+	</div>
 		
-	</div> <!-- sidebar -->
-</div> <!-- col-md-3 -->
+
+<!-- row -->
 
 
 
-</div>
 	</div>
   </div>
   <div class="container-narrow">

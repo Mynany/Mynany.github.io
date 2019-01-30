@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>NEW FEATURE ADDED</title>
+      <link href="/featureadd.html"/>
+      <url>/featureadd.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hide-your-post"><a href="#Hide-your-post" class="headerlink" title="Hide your post"></a>Hide your post</h1><p>New feature added based on <a href="https://github.com/blackshow/hexo-theme-freemind.386" target="_blank" rel="noopener">freeman.386</a><br>You can choose not to show your post on homepage, but still can access under corresponding catagories or tags.<br>For those posts you do not want display on homepage, add this in Front-Matter<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">not_show_on_homepage: true</span><br></pre></td></tr></table></figure></p><p>You cannot see <a href="http://littletealdragon.com/PNP.html">Pride and Prejudice</a> this article on my <a href="http://littletealdragon.com">homepage</a>, but it can be accessed under catagory book and tag book.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test</title>
       <link href="/test.html"/>
       <url>/test.html</url>
@@ -19,19 +38,6 @@
             <tag> hexo </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>newplan</title>
-      <link href="/newplan.html"/>
-      <url>/newplan.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="I-want-to-shut-you-down"><a href="#I-want-to-shut-you-down" class="headerlink" title="I want to shut you down"></a>I want to shut you down</h1>]]></content>
-      
-      
       
     </entry>
     

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://littletealdragon.com/"/>
-  <updated>2019-01-30T16:27:05.810Z</updated>
+  <updated>2019-01-30T21:34:19.971Z</updated>
   <id>http://littletealdragon.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://littletealdragon.com/test.html"/>
     <id>http://littletealdragon.com/test.html</id>
     <published>2019-01-30T16:04:23.000Z</published>
-    <updated>2019-01-30T16:27:05.810Z</updated>
+    <updated>2019-01-30T21:34:19.971Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Access-pictures-in-hexo"><a href="#Access-pictures-in-hexo" class="headerlink" title="Access pictures in hexo"></a>Access pictures in hexo</h1><p>Pictures display normally if I quote the link from internet<br>But if i want to use a local picture by it’s relative path, error shows<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![new github repository](pic/githubinit.png)</span><br></pre></td></tr></table></figure></p><p>Then I check the document, it says that hexo offers a new way to access your local pics. First set post_asset_folder setting in _config.yml true, then every time you create a new post, hexo will create a source file as well. Then we can access the pictures by doing this.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure></p><p>The problem is, by doing this, we cannot adjust the size of images. </p><hr><p>Regular markdown syntax test<br><img src="pic/githubinit.png" alt="new github repository"></p><p>Hexo syntax test<br><img src="/test/githubinit.png" title="new github repository"></p>]]></content>
     

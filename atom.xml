@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://littletealdragon.com/"/>
-  <updated>2019-01-30T21:59:01.224Z</updated>
+  <updated>2019-05-09T05:18:36.586Z</updated>
   <id>http://littletealdragon.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>self-intro</title>
+    <link href="http://littletealdragon.com/self-intro.html"/>
+    <id>http://littletealdragon.com/self-intro.html</id>
+    <published>2019-05-09T05:05:14.000Z</published>
+    <updated>2019-05-09T05:18:36.586Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Yumeng-Yang"><a href="#Yumeng-Yang" class="headerlink" title="Yumeng Yang"></a>Yumeng Yang</h1><h2 id="or-Pixel"><a href="#or-Pixel" class="headerlink" title="or Pixel"></a>or Pixel</h2><ol><li>I am interested in full stack development</li></ol><hr><ol start="2"><li>I am interested in Data Processing and Data Mining</li></ol><hr><ol start="3"><li>Being a designer is my goal. Not only UI, but a product,  a concept,  a company or maybe, a dress</li></ol><hr><ol start="4"><li>See my blog post in Archives or categories</li></ol><hr><ol start="5"><li><a href="https://github.com/Mynany" target="_blank" rel="noopener">Click here to access my Github</a></li></ol><hr><ol start="6"><li><a href="https://www.linkedin.com/in/yumengyang2/" target="_blank" rel="noopener">Click here to see me on LinkedIn</a></li></ol><hr><ol start="7"><li><a href="https://www.google.com" target="_blank" rel="noopener">Or here to google my name</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Yumeng-Yang&quot;&gt;&lt;a href=&quot;#Yumeng-Yang&quot; class=&quot;headerlink&quot; title=&quot;Yumeng Yang&quot;&gt;&lt;/a&gt;Yumeng Yang&lt;/h1&gt;&lt;h2 id=&quot;or-Pixel&quot;&gt;&lt;a href=&quot;#or-Pixel&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://littletealdragon.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>NEW FEATURE ADDED</title>
     <link href="http://littletealdragon.com/featureadd.html"/>
     <id>http://littletealdragon.com/featureadd.html</id>
     <published>2019-01-30T21:46:03.000Z</published>
-    <updated>2019-01-30T21:59:01.224Z</updated>
+    <updated>2019-05-09T05:19:46.173Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Hide-your-post"><a href="#Hide-your-post" class="headerlink" title="Hide your post"></a>Hide your post</h1><p>New feature added based on <a href="https://github.com/blackshow/hexo-theme-freemind.386" target="_blank" rel="noopener">freeman.386</a><br>You can choose not to show your post on homepage, but still can access under corresponding catagories or tags.<br>For those posts you do not want display on homepage, add this in Front-Matter<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">not_show_on_homepage: true</span><br></pre></td></tr></table></figure></p><p>You cannot see <a href="http://littletealdragon.com/PNP.html">Pride and Prejudice</a> this article on my <a href="http://littletealdragon.com">homepage</a>, but it can be accessed under catagory book and tag book.</p>]]></content>
     
@@ -44,7 +67,7 @@
     <link href="http://littletealdragon.com/test.html"/>
     <id>http://littletealdragon.com/test.html</id>
     <published>2019-01-30T16:04:23.000Z</published>
-    <updated>2019-01-30T21:44:20.883Z</updated>
+    <updated>2019-05-09T05:19:41.199Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Access-pictures-in-hexo"><a href="#Access-pictures-in-hexo" class="headerlink" title="Access pictures in hexo"></a>Access pictures in hexo</h1><p>Pictures display normally if I quote the link from internet<br>But if i want to use a local picture by it’s relative path, error shows<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![new github repository](pic/githubinit.png)</span><br></pre></td></tr></table></figure></p><p>Then I check the document, it says that hexo offers a new way to access your local pics. First set post_asset_folder setting in _config.yml true, then every time you create a new post, hexo will create a source file as well. Then we can access the pictures by doing this.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure></p><p>The problem is, by doing this, we cannot adjust the size of images. </p><hr><p>Regular markdown syntax test<br><img src="pic/githubinit.png" alt="new github repository"></p><p>Hexo syntax test<br><img src="/test/githubinit.png" title="new github repository"></p>]]></content>
     
@@ -91,7 +114,7 @@
     <link href="http://littletealdragon.com/musictest.html"/>
     <id>http://littletealdragon.com/musictest.html</id>
     <published>2019-01-21T21:21:45.000Z</published>
-    <updated>2019-01-21T21:24:33.866Z</updated>
+    <updated>2019-05-09T05:19:31.267Z</updated>
     
     <content type="html"><![CDATA[<p>有一小段solo不知是箫还是笛子，特地看了一下现场版，都是用唢呐代替。<br>然后就特别想回国，去红白喜事现场，找个老师傅教我唢呐</p><iframe src="https://open.spotify.com/embed/track/3sWeUneRsiQwY4PKkKBsQ9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>]]></content>
     
@@ -115,7 +138,7 @@
     <link href="http://littletealdragon.com/video.html"/>
     <id>http://littletealdragon.com/video.html</id>
     <published>2019-01-20T21:24:42.000Z</published>
-    <updated>2019-01-21T03:36:50.606Z</updated>
+    <updated>2019-05-09T05:19:25.908Z</updated>
     
     <content type="html"><![CDATA[<h1 id="HARPEJJI"><a href="#HARPEJJI" class="headerlink" title="HARPEJJI"></a>HARPEJJI</h1><h2 id="先欣赏一段美妙的音乐"><a href="#先欣赏一段美妙的音乐" class="headerlink" title="先欣赏一段美妙的音乐"></a>先欣赏一段美妙的音乐</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/gBkN-1AG-_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>这是 <strong>harpejji</strong>，一种电子弦乐器，2007年由Marcodi Musical Products的创始人 <strong>Tim Meeks</strong> 设计。<br>此琴可插电也可不插电，采用的是标准电吉他电贝司弦。<br>整体上从面板来看是一个keyboard，弹琴姿势也像键盘。琴弦的加入让整个乐器又有点像吉他，弹奏者演奏时用到的揉弦滑弦也是吉他里的技巧。琴弦粗细跨度比较大，从而使琴可以发出贝斯的低音。此外，悶弦音能给出类似鼓点的节奏，真真可谓是一个人是一支乐队。<br>（其实我觉得它长得更像古筝和搓衣板，他们一定是受了中国古代文化的熏陶和古代劳动人民的影响）<br>横向看，从左到右音调递增，相邻的两根弦空弦相差一个全音。<br>纵向看，从下到上音调递增，相邻两品相差一个半音。<br>图上白色标记代表自然音符（钢琴上的白建），黑色标记代表变音（钢琴上的黑键），白色空心圆代表C。</p><div><br><div style="height: 40%;width: 50%;float: left;"><img src="https://cdn.shopify.com/s/files/1/0005/0770/7510/files/Fretboard_Basics_720x.png?v=1544390611" alt="Fretboard Basics"></div><div style="height: 40%;width: 50%;float: left;"><img src="https://cdn.shopify.com/s/files/1/0005/0770/7510/files/Note_Markers_720x.png?v=1544392411" alt="Node Markers"></div><br></div><p><br>以下这个视频更能清楚的看到各种演奏手法<br></p><iframe width="560" height="315" src="https://www.youtube.com/embed/amxsfwmzsNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <p>转发已获得演奏者Mathieu Terrade许可<br>原视频<a href="https://www.youtube.com/watch?v=gBkN-1AG-_A" target="_blank" rel="noopener">地址</a><br>有兴趣的小伙伴，购买链接在<a href="https://www.marcodi.com" target="_blank" rel="noopener">这里</a><br>参考文章：<a href="https://www.marcodi.com/pages/learn-to-play" target="_blank" rel="noopener">https://www.marcodi.com/pages/learn-to-play</a><br>                  <a href="https://en.wikipedia.org/wiki/Harpejji" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Harpejji</a></p>]]></content>
     
@@ -128,9 +151,9 @@
       <category term="music" scheme="http://littletealdragon.com/categories/music/"/>
     
     
-      <category term="science and art" scheme="http://littletealdragon.com/tags/science-and-art/"/>
-    
       <category term="music" scheme="http://littletealdragon.com/tags/music/"/>
+    
+      <category term="science and art" scheme="http://littletealdragon.com/tags/science-and-art/"/>
     
       <category term="harpejji" scheme="http://littletealdragon.com/tags/harpejji/"/>
     
@@ -141,7 +164,7 @@
     <link href="http://littletealdragon.com/list.html"/>
     <id>http://littletealdragon.com/list.html</id>
     <published>2019-01-20T03:41:46.000Z</published>
-    <updated>2019-01-21T22:26:41.140Z</updated>
+    <updated>2019-05-09T05:19:20.271Z</updated>
     
     <content type="html"><![CDATA[<p>update</p><ul><li>fix bug, nothing on tags page</li><li><p>git<br>啪啪打脸<br>該運動了，明天繼續</p></li><li><p>git寫完</p></li><li>讓小黃人動起來</li><li>這個搜索框不支持中文啊</li><li>改英文</li></ul>]]></content>
     
@@ -172,7 +195,7 @@
     <link href="http://littletealdragon.com/1q84.html"/>
     <id>http://littletealdragon.com/1q84.html</id>
     <published>2019-01-20T03:35:02.000Z</published>
-    <updated>2019-01-21T03:35:50.154Z</updated>
+    <updated>2019-05-09T05:18:59.751Z</updated>
     
     <content type="html"><![CDATA[<h1 id="1q84"><a href="#1q84" class="headerlink" title="1q84"></a>1q84</h1><p>前半部分還可以，後面真真是女人的裹腳布，又臭又長。<br>沒了。<br>1984也看過，具體情節忘了，只記得當時看到最後快的飛起，因為根本就看不懂。好像是沒看完。</p>]]></content>
     
@@ -197,7 +220,7 @@
     <link href="http://littletealdragon.com/guitarbuzz.html"/>
     <id>http://littletealdragon.com/guitarbuzz.html</id>
     <published>2019-01-20T03:11:57.000Z</published>
-    <updated>2019-01-21T03:36:22.261Z</updated>
+    <updated>2019-05-09T05:19:14.391Z</updated>
     
     <content type="html"><![CDATA[<h1 id="吉他打品咋辦"><a href="#吉他打品咋辦" class="headerlink" title="吉他打品咋辦"></a>吉他打品咋辦</h1><p>芝加哥冬天太過乾燥，加上室內空調全天不休，我這兩把吉他相繼出現了打品的問題。總結了這幾個辦法：</p><ul><li>吉他音孔裡面靠近上面的地方有一個小洞，找一把尺寸合適的螺絲刀伸進去，轉動螺絲刀，往哪邊轉我忘了。反正就是調節琴頸的高低。轉不動的話，請拿出家裡用的食用油滴兩滴進去。注意別轉的太過了，防止吉他被玩壞。網上說可以目測琴頸的高低，我反正從來都看不出來。</li><li>拿一個濕毛巾，擰乾，別太乾。拿一個ziploc的袋子，沒有可以用塑料袋代替，用刀劃幾個口子，把毛巾放進去。袋子口合上，放進吉他琴箱裡72小時。</li><li>換一把吉他</li><li>其他打磨品絲的操作太高級了，我沒試過</li></ul><p>吉他都金貴得很叻，哪怕是最辣雞的合板吉他，也會受濕度的影響。不能太乾燥也不能太潮溼。<br>南方的小夥伴可以在吉他琴箱裡塞一包乾燥劑，注意更換。北方的小夥伴平時可以在旁邊個一盆水，不用吉他的時候裝回琴包裡。千萬不要放到暖氣旁邊。</p>]]></content>
     
@@ -227,7 +250,7 @@
     <link href="http://littletealdragon.com/git.html"/>
     <id>http://littletealdragon.com/git.html</id>
     <published>2019-01-20T01:22:27.000Z</published>
-    <updated>2019-01-30T16:02:44.347Z</updated>
+    <updated>2019-05-09T05:19:08.629Z</updated>
     
     <content type="html"><![CDATA[<h1 id="set-up-git-on-Mac"><a href="#set-up-git-on-Mac" class="headerlink" title="set up git on Mac"></a>set up git on Mac</h1><p>很久以前，有個朋友告訴我，個人網站對找工作有很大幫助，我沒放在心上。昨天不知道在搜什麼東西，看到了某位大神的blog，造型炫酷，內容紮實，我心動了。<br>github pages + hexo 當然要從git開始，第一篇文章就想紀錄一下怎麼配置git以及github。廢話有點多。</p><h2 id="預備知識"><a href="#預備知識" class="headerlink" title="預備知識"></a>預備知識</h2><p>git是啥就不多說了</p><h3 id="git有三種主要狀態：committed，modified，和staged"><a href="#git有三種主要狀態：committed，modified，和staged" class="headerlink" title="git有三種主要狀態：committed，modified，和staged"></a>git有三種主要狀態：committed，modified，和staged</h3><ul><li>committed代表數據已經安全的存入本地數據庫</li><li>modified代表你對文件進行了更改，而且沒有將更改後的文件committed入數據庫</li><li>staged代表你已經對更改的文件進行標記進行下一次commit</li></ul><h3 id="git-project有三個section"><a href="#git-project有三個section" class="headerlink" title="git project有三個section"></a>git project有三個section</h3><p>如下圖所示：the git directory, the working tree, the staging are</p><ul><li>git directory是git為你的項目存儲數據的區域，這是git最重要的一部分。從其他計算機克隆倉庫時，拷貝的也是這裡的數據</li><li>working tree是對項目的某個版本獨立提取出來的內容。也就是你本地的項目，供你修改</li><li>staging area是一個文件，保存了下次將commit的文件列表信息，一般在git倉庫目錄中<br><img src="https://git-scm.com/book/en/v2/images/areas.png" alt="Working tree, staging area, and Git directory"></li></ul><h3 id="git工作流程："><a href="#git工作流程：" class="headerlink" title="git工作流程："></a>git工作流程：</h3><ul><li>在working tree（本地）修改文件</li><li>暫存文件，將文件快照放入staging area</li><li>提交更新。找到暫存區域的文件，將快照永久性存儲到git directory</li></ul><h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><p>首先在github上申請帳號，不多作解釋。<br>然後打開終端，輸入w<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git</span><br></pre></td></tr></table></figure></p><p>若電腦上沒有安裝git，會提醒你安裝<br>接著輸入，配置git用戶信息，user name為github用戶名，user email為github郵箱</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;Pixel&quot;</span><br><span class="line">git config --global user.email pixel@gmail.com</span><br></pre></td></tr></table></figure><p>設置過後，可以使用檢查你的配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></p><p>如果出現以下信息，就代表配置成功<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">user.name=Pixel</span><br><span class="line">user.email=pixel@gmail.com</span><br></pre></td></tr></table></figure></p><h2 id="初始化倉庫"><a href="#初始化倉庫" class="headerlink" title="初始化倉庫"></a>初始化倉庫</h2><p>在你的項目文件夾下，運行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure></p><p>將你想要跟蹤的文件添加至上文所說的暫存區域<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add * //添加當前目錄下所有文件</span><br><span class="line">git add test.c //添加test.c</span><br><span class="line">git add *.c  //添加當前目錄下所有.c文件</span><br></pre></td></tr></table></figure></p><p>提交文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &apos;first commit&apos;</span><br></pre></td></tr></table></figure></p><p>然後怎樣把本地w項目託管到github上呢。首先，github上新建一個倉庫</p><p><img src="pic/githubinit.png" alt="new github repository"><br>然後進入剛創建的項目，拷貝鏈接<br><img src="pic/githublink.png" alt="copy github link"><br>然後在本地你要託管的項目目錄下運行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/Mynany/Msapriori-Mining.git</span><br></pre></td></tr></table></figure></p><p>使用push命令向遠程主機推送<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></p><h2 id="克隆倉庫"><a href="#克隆倉庫" class="headerlink" title="克隆倉庫"></a>克隆倉庫</h2><p>像上述一樣，拷貝要克隆倉庫的url<br>克隆到當前文件夾下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/Mynany/Msapriori-Mining.git</span><br></pre></td></tr></table></figure></p><p>克隆到指定文件夾<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/Mynany/Msapriori-Mining.git myClone</span><br></pre></td></tr></table></figure></p><p>然後就可以在本地對項目進行修改。修改好之後，可以推送修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure></p><p>修改項目的同時，也可以更新本地數據庫<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin</span><br></pre></td></tr></table></figure></p><p>有關master和origin以及git分支的詳細內容，可以看<a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank" rel="noopener">官方文檔</a>  </p><p>參考資料：<a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener">https://git-scm.com/book/en/v2</a></p>]]></content>
     

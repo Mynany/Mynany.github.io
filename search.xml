@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>self-intro</title>
+      <link href="/self-intro.html"/>
+      <url>/self-intro.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Yumeng-Yang"><a href="#Yumeng-Yang" class="headerlink" title="Yumeng Yang"></a>Yumeng Yang</h1><h2 id="or-Pixel"><a href="#or-Pixel" class="headerlink" title="or Pixel"></a>or Pixel</h2><ol><li>I am interested in full stack development</li></ol><hr><ol start="2"><li>I am interested in Data Processing and Data Mining</li></ol><hr><ol start="3"><li>Being a designer is my goal. Not only UI, but a product,  a concept,  a company or maybe, a dress</li></ol><hr><ol start="4"><li>See my blog post in Archives or categories</li></ol><hr><ol start="5"><li><a href="https://github.com/Mynany" target="_blank" rel="noopener">Click here to access my Github</a></li></ol><hr><ol start="6"><li><a href="https://www.linkedin.com/in/yumengyang2/" target="_blank" rel="noopener">Click here to see me on LinkedIn</a></li></ol><hr><ol start="7"><li><a href="https://www.google.com" target="_blank" rel="noopener">Or here to google my name</a></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>NEW FEATURE ADDED</title>
       <link href="/featureadd.html"/>
       <url>/featureadd.html</url>
@@ -112,9 +131,9 @@
       
         <tags>
             
-            <tag> science and art </tag>
-            
             <tag> music </tag>
+            
+            <tag> science and art </tag>
             
             <tag> harpejji </tag>
             

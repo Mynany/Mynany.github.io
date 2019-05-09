@@ -2,30 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://littletealdragon.com/featureadd.html</loc>
-    <lastmod>2019-01-30</lastmod>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/test.html</loc>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/musictest.html</loc>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/video.html</loc>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/list.html</loc>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/guitarbuzz.html</loc>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/git.html</loc>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/1q84.html</loc>
+    <lastmod>2019-05-09</lastmod>
+  </url>  <url>
+    <loc>http://littletealdragon.com/self-intro.html</loc>
+    <lastmod>2019-05-09</lastmod>
   </url>  <url>
     <loc>http://littletealdragon.com/PNP.html</loc>
     <lastmod>2019-01-30</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/test.html</loc>
-    <lastmod>2019-01-30</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/git.html</loc>
-    <lastmod>2019-01-30</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/list.html</loc>
-    <lastmod>2019-01-21</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/musictest.html</loc>
-    <lastmod>2019-01-21</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/video.html</loc>
-    <lastmod>2019-01-21</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/guitarbuzz.html</loc>
-    <lastmod>2019-01-21</lastmod>
-  </url>  <url>
-    <loc>http://littletealdragon.com/1q84.html</loc>
-    <lastmod>2019-01-21</lastmod>
   </url>
 </urlset>
